@@ -1,0 +1,8 @@
+pseudo code:
+
+1. provide a table with all skus, units sold, promo flag by week into a macro
+2. macro takes that table, # of weeks for a moving average, level of seasonal adjustment
+3. macro outputs the the expected units sold by week as a baseline using promo effectiveness methodology
+
+macros:
+PROMO_EFF(data_source, MA_Weeks, level of adjustment)
